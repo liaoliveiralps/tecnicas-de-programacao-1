@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PROJETO NATURAIS</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>executar</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Número 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditNum1"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Número 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditNum2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="tableWidgetGrid">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>361</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>FATORIAL</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Nº PERFEITO</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PALÍNDROMO</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>QUADRADO PERFEITO</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Nº PRIMO</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>BASE 10 P/ BASE 2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>BASE 10 P/ BASE 8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>BASE 10 P/ BASE 16</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>MDC</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>MMC</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>PRIMOS ENTRE SI</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>1º NÚMERO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>2º NÚMERO</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>425</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
